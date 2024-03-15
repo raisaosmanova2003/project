@@ -8,6 +8,7 @@ body {
 }
  
 header {
+    z-index: 99;
     background-color: #2c3e50;
     display: flex;
     justify-content: space-around;
@@ -129,13 +130,18 @@ nav a {
 }
 
 .cards {
-    
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
    
 
+}
+
+.cards_card {
+    cursor: pointer;
+    
 }
 
 .cards_card img{
@@ -296,7 +302,7 @@ textarea {
 .start {
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 5rem;
     padding-bottom: 5rem;
     background-color: #2c3e50;
